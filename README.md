@@ -117,7 +117,7 @@ Install the required python packages:
 Each time you want to use the environment, you need to activate it using:
 
 ```console
-conda activate eeg39
+conda activate bh_eeg_vr
 ```
 
 Then start the jupyter server:
