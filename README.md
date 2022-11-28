@@ -57,7 +57,7 @@ Use your usual terminal (bash).
 Launch your terminal and create a new python environment using the `conda create` command.
 
 ```console
-conda create -n eeg39 python=3.9
+conda create -n bh_eeg_vr python=3.9
 ```
 
 Here we specify the name of the new environment `bh_eeg_vr` and the python version `3.9`.
