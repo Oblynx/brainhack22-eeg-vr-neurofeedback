@@ -6,11 +6,15 @@
 
 Tried to run on Linux. Unity installs, but the ecosystem around Unity and Meta Quest seems very Windows-focused. Therefore focusing on Windows to avoid any unexpected issues.
 
-1. Install UnityHub
+1. Install UnityHub ([here](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)).
 2. Install the latest Unity editor (not LTS). Add-ons: VisualStudio, Android SDK (all), Windows SDK
 3. [Configure Unity settings](https://developer.oculus.com/documentation/unity/unity-conf-settings/#build-settings)
 3. Add any Meta quest integration packages (not yet sure if any are needed)
 
+
+#### Work with Redis
+
+To be able to communicate with Redis from Unity check [this website](https://simulapps.com/access-redis-database-from-unity3d/).
 
 ## Redis
 
@@ -54,7 +58,7 @@ Launch your terminal and create a new python environment using the `conda create
 conda create -n eeg39 python=3.9
 ```
 
-Here we specify the name of the new environment `eeg39` and the python version `3.9`.
+Here we specify the name of the new environment `bh_eeg_vr` and the python version `3.9`.
 
 Anaconda will ask you if you are sure you can to create this new environment
 
@@ -68,12 +72,12 @@ Press <kbd>y</kbd> (yes) then <kbd>Enter</kbd> to accept
 Activate the new environment using:
 
 ```console
-conda activate eeg39
+conda activate bh_eeg_vr
 ```
 Notice that the current environment is displayed at the beginning of your shell:
 
 ```console
-(eeg39) C:\Users\user_name>
+(bh_eeg_vr) C:\Users\user_name>
 ```
 
 Install the required python packages:
