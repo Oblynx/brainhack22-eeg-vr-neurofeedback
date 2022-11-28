@@ -14,6 +14,8 @@ Tried to run on Linux. Unity installs, but the ecosystem around Unity and Meta Q
 
 #### Work with Redis
 
+Must use **Unity 2021.3.14f1**.
+
 To be able to communicate with Redis from Unity check [this website](https://simulapps.com/access-redis-database-from-unity3d/).
 
 ## Redis
